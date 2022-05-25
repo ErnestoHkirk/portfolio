@@ -10,14 +10,9 @@ const Education = () => {
   var tags = Tags;
   var coursework = Coursework;
 
-  console.log(tags);
-  console.log(coursework);
-
   const accordionSlice = coursework.map((course) => {
     ++id;
-    //console.log(id);
     if (course) {
-      console.log(course[0]);
       return <AccordionCard key={id} id={id} course={course} tags={tags} />;
     }
   });
@@ -25,11 +20,11 @@ const Education = () => {
   return (
     <div
       name="education"
-      className="w-full h-full pt-24 sm:h-screen text-gray-300 block sm:flex sm:flex-row justify-center items-center"
+      className="w-full h-full pb-4 pt-24 sm:h-screen text-gray-300 block sm:flex sm:flex-row justify-center items-center"
       style={{ background: "linear-gradient(#1d2d3a, #015247)" }}
     >
       <div
-        className="pl-4 pr-4  w-full ml-64 sm:w-1/2 block sm:flex sm:flex-col"
+        className="pl-4 pr-4 w-full xl:ml-64 sm:w-1/2 block sm:flex sm:flex-col"
         name="half container"
       >
         <h1 className="text-4xl font-bold inline border-b-4 border-orange-600">
@@ -55,7 +50,7 @@ const Education = () => {
           </div>
         </div>
         <div name="spacer" className="mb-4" />
-        <div className="items-center flex flex-col sm:flex-row p-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500">
+        <div className="mb-4 items-center flex flex-col sm:flex-row p-4 rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500">
           <div className="sm:pr-12" name="titan-image">
             <img
               className="w-32 sm:w-32 rounded-2xl mb-4 sm:mb-0"
@@ -75,10 +70,10 @@ const Education = () => {
         </div>
       </div>
       <div
-        className="bg-gray-300 w-full pt-4 sm:w-1/2 mr-64 flex flex-col rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500"
+        className="bg-gray-300 ml-4 sm:ml-0 mr-4 xl:w-1/2 pt-4 xl:mr-64 flex flex-col rounded-2xl bg-gradient-to-r from-cyan-500 to-blue-500"
         name="half container"
       >
-        <div className="text-4xl font-bold pb-2 text-gray-700 w-full flex justify-center">
+        <div className=" text-4xl font-bold pb-2 text-gray-700 w-full flex justify-center">
           <h1>Computer Science Coursework</h1>
         </div>
         <div className="accordion accordion-flush" id="accordionFlushExample">

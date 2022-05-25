@@ -29,7 +29,7 @@ const Tools = () => {
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div>
+        <div className="mt-16">
           <p className="text-4xl font-bold inline border-b-4 border-orange-600 ">
             Tools
           </p>

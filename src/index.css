@@ -52,3 +52,59 @@ body {
 .accordion-button:not(.collapsed) {
   background-color: white;
 }
+
+.proj1 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/pop.jpg");
+  height: 70vh;
+
+  background-repeat: no-repeat;
+}
+
+.proj2 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/vortex.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proj3 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/jurrasic-park-wide.jpg");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proj4 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/portfolio.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proj5 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/gradetier.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proj6 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/roundabout.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.proj7 {
+  background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
+    url("assets/tweets.png");
+  height: 70vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -8,6 +8,7 @@ import "swiper/css/pagination";
 
 import mountains from "../assets/mountains.jpg";
 import pop from "../assets/pop.jpg";
+import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 export default function ProjectSwiper() {
   return (
@@ -25,30 +26,170 @@ export default function ProjectSwiper() {
         navigation
         loop
         effect
-        pagination={true}
-        className="bg-red-500 flex flex-col mt-2 w-3/4 object-cover"
+        pagination={{
+          type: "fraction",
+        }}
+        className="bg-red-500 flex flex-col mt-2 w-7/12 text-white "
       >
-        <SwiperSlide style={{ backgroundPosition: "center" }}>
+        <SwiperSlide>
           <div style={{ position: "relative" }}>
-            <img src={pop} alt="mountains" />
-            <p className="text-white absolute bottom-32 font-bold left-8 text-4xl">
+            <div className="proj1"></div>
+            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
               Amazon Prime Video - Rotten Tomatoes Overlay
             </p>
             <a
               href="https://chrome.google.com/webstore/detail/amazon-prime-video-rotten/hfemgdpfoemphmhakjpcbepaggjmhjci"
-              className="text-white absolute bottom-24 left-8 text-2xl hover:underline"
+              className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
             >
               Project Deployment
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
             </a>
             <a
               href="https://github.com/ErnestoHkirk/RTChrome"
-              className="text-white absolute bottom-16 left-8 text-2xl hover:underline"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
             >
               Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
             </a>
             <p className="text-white absolute bottom-8 text-2xl left-8">
-              Overlays Amazon Prime Video™ with Rotten Tomatoes™ movie and TV
-              ratings, with over 3500+ monthly active users.
+              A chrome extension that overlays Amazon Prime Video™ with Rotten
+              Tomatoes™ movie and TV show ratings, with over 3500+ monthly
+              active users. Built with javascript.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj2"></div>
+            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+              Vortex Snowgear
+            </p>
+            <a
+              href="https://github.com/ErnestoHkirk/ReStored"
+              className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
+            >
+              Project Deployment
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <a
+              href="https://github.com/ErnestoHkirk/ReStored"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              A fully functional e-commerce shell site. Built with React,
+              React-Redux, Typescript, Material-UI, C#, .NET6, and Entity
+              Framework.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj3"></div>
+            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+              Snapshot Collage
+            </p>
+            <a
+              href="https://snapshot-collage.herokuapp.com/"
+              className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
+            >
+              Project Deployment
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <a
+              href="https://github.com/ErnestoHkirk/Snapshot-Collage"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              An image searcher/collage creator built to streamline the process
+              of downloading multiple images. Built with Semantic-UI, React, and
+              Node.js.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj4"></div>
+            <p className="text-white absolute bottom-24 font-bold left-8 text-4xl">
+              Personal Portfolio
+            </p>
+
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              My personal website, existing to showcasing my talents and
+              abilities. Built with React, React-Swiper, Tailwind CSS, and
+              Bootstrap UI.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj5"></div>
+            <p className="text-white absolute bottom-32 font-bold left-8 text-4xl">
+              Rate My Professor - Gradetier GPA Viewer
+            </p>
+            <a
+              href="https://github.com/ErnestoHkirk/cpsc_254_proj"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              This chrome extension provides the average class GPA's from Fall
+              of 2018 onto RateMyProfessor.com for CSUF professors. Build with
+              Javascript.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj6"></div>
+            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+              Roundabout Learning - Shellhacks 2020 Submission
+            </p>
+            <a
+              href="https://roundabout-learning.s3-us-west-1.amazonaws.com/index.html"
+              className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
+            >
+              Project Deployment
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <a
+              href="https://github.com/ErnestoHkirk/roundabout-learning"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              Collaborated virtually in a 48 hour hackathon to create a project
+              centered around improving the student-teacher virtual classroom
+              experience. Built with Javascript.
+            </p>
+          </div>
+        </SwiperSlide>
+        <SwiperSlide>
+          <div style={{ position: "relative" }}>
+            <div className="proj7"></div>
+            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+              Twitter Sentiment Analysis Tool
+            </p>
+            <a
+              href="https://github.com/ErnestoHkirk/TweetSentimentAnalysis"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
+            <p className="text-white absolute bottom-8 text-2xl left-8">
+              Application that analyzes, categorizes, and visualizes tweet
+              sentiment. Built with AWS Amazon Comprehend, Python, Twitter’s
+              API, and plot.ly.
             </p>
           </div>
         </SwiperSlide>
