@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Tools from "./components/Tools";
 import Work from "./components/Projects";
 import Education from "./components/education/Education";
+import ProjectSwiper from "./components/ProjectSwiper";
 
 function App() {
   return (
@@ -14,7 +15,7 @@ function App() {
       <About />
       <Education />
       <Tools />
-      <Work />
+      <ProjectSwiper />
       <Contact />
     </div>
   );

@@ -1,7 +1,7 @@
 import React from "react";
 import WorkImg from "../assets/workImg.jpeg";
 import realEstate from "../assets/realestate.jpg";
-import pop from "../assets/pop.png";
+import pop from "../assets/pop.jpg";
 
 const Projects = () => {
   return (
