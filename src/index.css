@@ -33,24 +33,21 @@ html,
 body {
   overflow-x: hidden;
 }
+
 .accordion-button {
   padding: 0.4rem 2rem;
 }
 
-.accordion-button:focus {
-  box-shadow: none;
-}
-
-.accordion-item {
-  background-image: linear-gradient(
-    to right,
-    rgb(173, 83, 137),
-    rgb(60, 16, 83)
-  );
-}
-
 .accordion-button:not(.collapsed) {
-  background-color: white;
+  background-color: rgb(230, 119, 59);
+}
+
+.accordion-flush .accordion-item .accordion-button {
+  color: white;
+}
+
+.accordion-body {
+  color: white;
 }
 
 .proj1 {

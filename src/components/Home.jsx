@@ -6,21 +6,21 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="w-full h-screen bg-[#0a192f] sm:bg-cover sm:bg-[url('/src/assets/mountains.jpg')]"
-      //style={{ backgroundImage: `url(${mountain})`, backgroundSize: "cover" }}
+      className="w-full h-screen sm:bg-cover xl:bg-[url('/src/assets/mountains.jpg')] bg-gradient-to-b from-[#0a192f] to-[#1d2d3a] "
+      //style={{ background: "linear-gradient(#0a192f, #1d2d3a)" }}
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="font-bold text-orange-600">Hi, my name is</p>
-        <h1 className="text-4xl sm:text-7xl font-bold text-[#c6c9d4] sm:text-[#5e6579]">
+        <p className="font-bold text-orange-600 mt-8">Hi, my name is</p>
+        <h1 className="text-4xl sm:text-7xl font-bold text-[#c6c9d4] xl:text-[#5e6579]">
           Ernesto Hooghkirk
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9499a8] sm:text-[#717a94]">
           I'm a Software Developer.
         </h2>
-        <p className="text-lg font-bold text-gray-500 sm:text-gray-800 py-4 max-w-[700px]">
-          I’m a software developer specializing in building (and occasionally
-          designing) exceptional digital experiences. Currently, I’m focused on
+        <p className="text-lg font-bold text-gray-400 xl:text-gray-800 py-4 max-w-[700px]">
+          I’m a software developer specializing in building and 
+          designing exceptional digital experiences. Currently, I’m focused on
           building responsive full-stack web applications that utilize .NET and
           React.
         </p>

@@ -2,7 +2,10 @@ import React from "react";
 
 const AccordionCard = (props) => {
   return (
-    <div className="accordion-item">
+    <div
+      className="accordion-item"
+      style={{ background: "linear-gradient(to right, #3f637b, #8baec1)" }}
+    >
       <h2 className="accordion-header" id={`flush-heading${props.id}`}>
         <button
           className="accordion-button collapsed"

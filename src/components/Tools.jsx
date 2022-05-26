@@ -25,15 +25,20 @@ const Tools = () => {
   return (
     <div
       name="tools"
-      className="w-full h-full sm:h-screen bg-[#0a192f] text-gray-300"
+      className="w-full h-full pb-8 sm:h-screen xl:bg-[#0a192f] text-gray-300"
+      style={{ background: "linear-gradient(#1d2d3a, #3f637b)" }}
     >
       {/* Container */}
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
         <div className="mt-16">
           <p className="text-4xl font-bold inline border-b-4 border-orange-600 ">
-            Tools
+            Tools of the Trade
           </p>
-          <p className="py-4">// These are the technologies I've worked with</p>
+          <p className="py-4">
+            // Everything I use to get the job done. Specialized in JavaScript,
+            Python, and React.js... With a wide breadth of knowledge in many
+            other tools and languages.
+          </p>
         </div>
 
         <div className="w-full grid grid-cols-3 sm:grid-cols-6 gap-4 text-center py-8">

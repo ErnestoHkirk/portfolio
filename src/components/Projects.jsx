@@ -11,10 +11,11 @@ const Projects = () => {
   return (
     <div
       name="projects"
-      className="w-full md:h-screen text-gray-300 bg-[#0a192f]"
+      className="w-full sm:h-screen text-gray-300"
+      style={{ background: "linear-gradient(#3f637b, #1d2d3a)" }}
     >
       <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
-        <div className="pb-8">
+        <div className="pb-8 pt-16">
           <p className="text-4xl font-bold inline text-gray-300 border-b-4 border-orange-600">
             Projects
           </p>
@@ -22,7 +23,7 @@ const Projects = () => {
         </div>
 
         {/* Container */}
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
+        <div className="grid grid-cols-1 sm:grid-cols-4 gap-4">
           {/* Grid Item */}
           <div
             style={{ backgroundImage: `url(${pop})` }}

@@ -5,7 +5,7 @@ const About = () => {
     <div
       name="about"
       className="w-full h-screen text-gray-300"
-      style={{ background: "linear-gradient(#1d2d3a, #015247)" }}
+      style={{ background: "linear-gradient(#1d2d3a, #0a192f)" }} // #014547)
     >
       <div className="flex flex-col justify-center items-center w-full h-full">
         <div className="max-w-[1000px] w-full grid grid-cols-2 gap-8">
@@ -25,10 +25,9 @@ const About = () => {
           </div>
           <div>
             <p>
-              I am passionate about building excellent software that improves
-              the lives of those around me. I specialize in creating software
-              for clients ranging from individuals and small-businesses all the
-              way to large enterprise corporations. 
+              I'm passionate about building excellent software that improves the
+              lives of those around me, with proficiency in HTML, CSS, JavaScript,
+              React.js, and jQuery. 
             </p>
           </div>
         </div>

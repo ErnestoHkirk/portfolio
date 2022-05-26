@@ -1,6 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Navigation, EffectFade, Pagination } from "swiper";
+import { Navigation, EffectFade, Pagination, Autoplay } from "swiper";
 import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
@@ -13,14 +13,15 @@ import { BsBoxArrowInUpRight } from "react-icons/bs";
 export default function ProjectSwiper() {
   return (
     <div
-      className="bg-red-600 flex flex-col pt-32 w-full h-screen"
+      className="flex flex-col pt-32 w-full h-screen"
       name="projects"
+      style={{ background: "linear-gradient(#3f637b, #1d2d3a)" }}
     >
-      <h1 className="flex flex-col items-center mb-4 font-bold text-4xl">
+      <h1 className="flex flex-col mr-64 ml-64 items-center mb-4 pb-2 text-white font-bold text-4xl border-b-4 border-orange-600">
         Projects
       </h1>
       <Swiper
-        modules={[Navigation, EffectFade, Pagination]}
+        modules={[Navigation, EffectFade, Pagination, Autoplay]}
         speed={800}
         slidesPerView={1}
         navigation
@@ -29,7 +30,11 @@ export default function ProjectSwiper() {
         pagination={{
           type: "fraction",
         }}
-        className="bg-red-500 flex flex-col mt-2 w-7/12 text-white "
+        autoplay={{
+          delay: 5000,
+          disableOnInteraction: false,
+        }}
+        className="flex flex-col mt-2 w-7/12 text-white "
       >
         <SwiperSlide>
           <div style={{ position: "relative" }}>
