@@ -5,9 +5,6 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/effect-fade";
 import "swiper/css/pagination";
-
-import mountains from "../assets/mountains.jpg";
-import pop from "../assets/pop.jpg";
 import { BsBoxArrowInUpRight } from "react-icons/bs";
 
 export default function ProjectSwiper() {
@@ -123,7 +120,13 @@ export default function ProjectSwiper() {
             <p className="text-white absolute bottom-24 font-bold left-8 text-4xl">
               Personal Portfolio
             </p>
-
+            <a
+              href="https://github.com/ErnestoHkirk/portfolio"
+              className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
+            >
+              Github Repository
+              <BsBoxArrowInUpRight className="ml-1 mt-1" />
+            </a>
             <p className="text-white absolute bottom-8 text-2xl left-8">
               My personal website, existing to showcasing my talents and
               abilities. Built with React, React-Swiper, Tailwind CSS, and

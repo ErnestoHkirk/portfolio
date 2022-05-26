@@ -35,12 +35,12 @@ const Projects = () => {
                 Prime Video - Rotten Tomato Overlay
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://chrome.google.com/webstore/detail/amazon-prime-video-rotten/hfemgdpfoemphmhakjpcbepaggjmhjci">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/RTChrome">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -58,12 +58,12 @@ const Projects = () => {
                 Vortex Snowgear
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/ReStored">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/ReStored">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -82,12 +82,12 @@ const Projects = () => {
                 Snapshot Collage
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://snapshot-collage.herokuapp.com/">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/Snapshot-Collage">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -105,12 +105,7 @@ const Projects = () => {
                 Personal Portfolio
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/portfolio">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -129,12 +124,7 @@ const Projects = () => {
                 Rate My Professor - Gradetier GPA Viewer
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/cpsc_254_proj">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -153,12 +143,7 @@ const Projects = () => {
                 Twitter Sentiment Analysis Tool
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/TweetSentimentAnalysis">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -177,12 +162,12 @@ const Projects = () => {
                 Roundabout Learning - Shellhacks 2020 Submission
               </span>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a href="https://roundabout-learning.s3-us-west-1.amazonaws.com/index.html">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a href="https://github.com/ErnestoHkirk/roundabout-learning">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
