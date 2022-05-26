@@ -1,4 +1,7 @@
 import React from "react";
+import { AiFillLinkedin } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+import { AiOutlineProfile } from "react-icons/ai";
 
 const Contact = () => {
   return (
@@ -42,6 +45,31 @@ const Contact = () => {
         <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
+        <div className="flex flex-row text-gray-400 justify-around items-center mt-10">
+          <a
+            href="https://www.linkedin.com/in/ernesto-hooghkirk/"
+            className="flex text-white text-2xl hover:underline"
+          >
+            <AiFillLinkedin className="mt-1 mr-2" />
+            Linkedin
+          </a>
+
+          <a
+            href="https://github.com/ErnestoHkirk/"
+            className="flex text-white text-2xl hover:underline"
+          >
+            <AiFillGithub className="mt-1 mr-2" />
+            Github
+          </a>
+
+          <a
+            href="https://docs.google.com/document/d/1Dq-DSEiQFya2Lv4PPztRPCDTPa61EgMG361fVy-bors/edit?usp=sharing"
+            className="flex text-white text-2xl hover:underline"
+          >
+            <AiOutlineProfile className="mt-1 mr-2" />
+            Resume
+          </a>
+        </div>
       </form>
     </div>
   );

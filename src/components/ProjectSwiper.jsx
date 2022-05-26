@@ -28,7 +28,7 @@ export default function ProjectSwiper() {
           type: "fraction",
         }}
         autoplay={{
-          delay: 5000,
+          delay: 7000,
           disableOnInteraction: false,
         }}
         className="flex flex-col mt-2 w-7/12 text-white "
@@ -117,7 +117,7 @@ export default function ProjectSwiper() {
         <SwiperSlide>
           <div style={{ position: "relative" }}>
             <div className="proj4"></div>
-            <p className="text-white absolute bottom-24 font-bold left-8 text-4xl">
+            <p className="text-white absolute bottom-32 font-bold left-8 text-4xl">
               Personal Portfolio
             </p>
             <a
@@ -184,7 +184,7 @@ export default function ProjectSwiper() {
         <SwiperSlide>
           <div style={{ position: "relative" }}>
             <div className="proj7"></div>
-            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+            <p className="text-white absolute bottom-32 font-bold left-8 text-4xl">
               Twitter Sentiment Analysis Tool
             </p>
             <a

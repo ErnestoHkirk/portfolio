@@ -36,8 +36,8 @@ const Tools = () => {
           </p>
           <p className="py-4">
             // Everything I use to get the job done. Specialized in JavaScript,
-            Python, and React.js... With a wide breadth of knowledge in many
-            other tools and languages.
+            Python, and React.js. With a wide breadth of knowledge in many other
+            tools and languages.
           </p>
         </div>
 
@@ -64,7 +64,7 @@ const Tools = () => {
               src={ReactImg}
               alt="HTML icon"
             />
-            <p className="my-4">REACT</p>
+            <p className="my-4">REACT.JS</p>
           </div>
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img
