@@ -42,10 +42,10 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-3 sm:my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
-        <div className="flex flex-row text-gray-400 justify-around items-center mt-10">
+        <div className="flex flex-col sm:flex-row text-gray-400 justify-around items-center sm:mt-2">
           <a
             href="https://www.linkedin.com/in/ernesto-hooghkirk/"
             className="flex text-white text-2xl hover:underline"
