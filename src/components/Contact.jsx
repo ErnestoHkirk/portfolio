@@ -12,7 +12,7 @@ const Contact = () => {
     >
       <form
         method="POST"
-        action="https://getform.io/f/a699a1b2-f225-434e-b317-1fbbde8e006c"
+        action="https://getform.io/f/cd41b177-5ecd-4a5c-9dfb-c9e017473d8b"
         className="flex flex-col max-w-[600px] w-full"
       >
         <div className=" pt-4">
@@ -63,7 +63,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://docs.google.com/document/d/1Dq-DSEiQFya2Lv4PPztRPCDTPa61EgMG361fVy-bors/edit?usp=sharing"
+            href="https://drive.google.com/file/d/1t2_iAdLeN0BfiphMVUkBDsAsfRQb2Hri/view?usp=sharing"
             className="flex text-white text-2xl hover:underline"
           >
             <AiOutlineProfile className="mt-1 mr-2" />

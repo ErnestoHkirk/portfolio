@@ -20,6 +20,10 @@ export const Coursework = [
     "Digital logic and architecture of a computer system, machine level representation of data, memory system organization, structure of low-level computer languages. Machine, assembly, and macro language programming. Principles of assembler operation, input-output programming, interrupt/exception handling. Laboratory programming assignments. (2 hours lecture, 2 hours laboratory)",
   ],
   [
+    "CPSC 254 - Software Development with Open Source Systems",
+    "Philosophy of open source software development, open source operating systems such as Linux; open source development tools; open source programming languages, such as Python; open source software development processes; open source software licensing issues. (2 hours lecture, 2 hours laboratory)",
+  ],
+  [
     "CPSC 311 - Tech Writing for Comp Sci",
     "Develop documentation skills as used in the computer field. Proposals, feasibility studies, user guides and manuals, business communication and technical presentation. Case studies in professional ethics. Written and oral reports required.",
   ],
@@ -60,6 +64,10 @@ export const Coursework = [
     "Techniques for data preparation, exploratory analysis, statistical modeling, machine learning and visualization. Methods for analyzing different types of data, such as natural language and time-series, from emerging applications, including Internet-of-Things. Big data platforms. Projects with real-world data.",
   ],
   [
+    "CPSC 411 - Mobile Device Application Programming",
+    "Introduction to developing applications for mobile devices, including but not limited to runtime environments, development tools and debugging tools used in creating applications for mobile devices. Use emulators in lab. Students must provide their own mobile devices.",
+  ],
+  [
     "CPSC 440 - Computer System Architecture",
     "Computer performance, price/performance, instruction set design and examples. Processor design, pipelining, memory hierarchy design and input/output subsystems.",
   ],
@@ -79,6 +87,7 @@ export const Tags = [
   ["C++"],
   ["JAVA"],
   ["ASM"],
+  ["LINUX"],
   [""],
   ["C++"],
   ["SQL", "MYSQL", "HTML", "CSS", "JAVASCRIPT"],
@@ -87,7 +96,7 @@ export const Tags = [
   ["C++", "PYTHON"],
   ["PYTHON"],
   ["R", "R STUDIO"],
-  ["ASM"],
+  ["KOTLIN, ANDROID STUDIO"]["ASM"],
   ["PYTHON"],
   ["PYTHON"],
 ];
