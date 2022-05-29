@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab2c323a.css",
-    "main.js": "/static/js/main.2e54859c.js",
+    "main.css": "/static/css/main.45591b3f.css",
+    "main.js": "/static/js/main.70922715.js",
     "static/media/portfolio.png": "/static/media/portfolio.ae64823eca4d028e2b2b.png",
     "static/media/fullerton-collegev2.png": "/static/media/fullerton-collegev2.79ea3ca7b7cc1b3fcd83.png",
     "static/media/jurrasic-park-wide.jpg": "/static/media/jurrasic-park-wide.fa7897a039d314808852.jpg",
@@ -32,11 +32,11 @@
     "static/media/firebase.png": "/static/media/firebase.209703cedf1b1a96bc52.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.ab2c323a.css.map": "/static/css/main.ab2c323a.css.map",
-    "main.2e54859c.js.map": "/static/js/main.2e54859c.js.map"
+    "main.45591b3f.css.map": "/static/css/main.45591b3f.css.map",
+    "main.70922715.js.map": "/static/js/main.70922715.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab2c323a.css",
-    "static/js/main.2e54859c.js"
+    "static/css/main.45591b3f.css",
+    "static/js/main.70922715.js"
   ]
 }
