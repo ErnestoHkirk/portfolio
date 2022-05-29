@@ -21,7 +21,7 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             // Submit the form below or shoot me an email -
-            hooghkirk.e@gmail.com
+            Ernesto_Hooghkirk@csu.fullerton.edu
           </p>
         </div>
         <input
@@ -42,10 +42,10 @@ const Contact = () => {
           rows="10"
           placeholder="Message"
         ></textarea>
-        <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-3 sm:my-8 mx-auto flex items-center">
+        <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-3 md:my-8 mx-auto flex items-center">
           Let's Collaborate
         </button>
-        <div className="flex flex-col sm:flex-row text-gray-400 justify-around items-center sm:mt-2">
+        <div className="flex flex-col sm:flex-row text-gray-400 justify-around items-center sm:mt-16">
           <a
             href="https://www.linkedin.com/in/ernesto-hooghkirk/"
             className="flex text-white text-2xl hover:underline"
