@@ -1,9 +1,24 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiFillGithub } from "react-icons/ai";
 import { AiOutlineProfile } from "react-icons/ai";
 
 const Contact = () => {
+  const [rows, setRows] = useState(5);
+
+  const updateMedia = () => {
+    if (window.innerWidth > 1000) {
+      setRows(10);
+    } else {
+      setRows(5);
+    }
+  };
+
+  useEffect(() => {
+    window.addEventListener("resize", updateMedia);
+    return () => window.removeEventListener("resize", updateMedia);
+  });
+
   return (
     <div
       name="contact"
@@ -39,7 +54,7 @@ const Contact = () => {
         <textarea
           className="bg-[#ccd6f6] p-2"
           name="message"
-          rows="10"
+          rows={rows}
           placeholder="Message"
         ></textarea>
         <button className="text-white border-2 hover:bg-red-500 hover:border-red-600 px-4 py-3 my-3 md:my-8 mx-auto flex items-center">
