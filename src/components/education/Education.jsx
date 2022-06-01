@@ -20,11 +20,11 @@ const Education = () => {
   return (
     <div
       name="education"
-      className="w-full h-full pb-24 pt-24 lg:h-screen text-gray-300 block md:flex md:flex-row justify-center items-center"
+      className="w-full h-full pb-4 sm:pb-24 pt-24 lg:h-screen text-gray-300 block md:flex md:flex-row justify-center items-center"
       style={{ background: "linear-gradient(#0a192f, #1d2d3a)" }}
     >
       <div
-        className="pl-4 pr-4 w-full 2xl:ml-64 md:w-1/2 block md:flex md:flex-col "
+        className="pl-6 pr-6 w-full 2xl:ml-64 md:w-1/2 block md:flex md:flex-col "
         name="half container"
       >
         <h1 className="text-4xl font-bold inline border-b-4 border-orange-600">
@@ -76,7 +76,7 @@ const Education = () => {
         </div>
       </div>
       <div
-        className="bg-gray-300 ml-4 sm:ml-0 mr-4 xl:w-1/2 pt-4 2xl:mr-64 flex flex-col rounded-2xl"
+        className="bg-gray-300 ml-4 sm:ml-0 mr-4 xl:w-1/2 pt-4 2xl:mr-64 hidden sm:flex sm:flex-col rounded-2xl"
         style={{ background: "linear-gradient(to right, #3f637b, #8baec1)" }}
         name="half container"
       >

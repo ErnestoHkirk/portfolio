@@ -36,7 +36,12 @@ const Contact = () => {
           </p>
           <p className="text-gray-300 py-4">
             // Submit the form below or shoot me an email -
-            Ernesto_Hooghkirk@csu.fullerton.edu
+            <a
+              className="text-white"
+              href="mailto:Ernesto_Hooghkirk@csu.fullerton.edu"
+            >
+              Ernesto_Hooghkirk@csu.fullerton.edu
+            </a>
           </p>
         </div>
         <input
