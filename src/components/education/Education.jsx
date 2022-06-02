@@ -80,16 +80,13 @@ const Education = () => {
         style={{ background: "linear-gradient(to right, #3f637b, #8baec1)" }}
         name="half container"
       >
-        <div className=" text-4xl font-bold pb-2 text-white w-full flex justify-center">
+        <div className="text-2xl lg:text-3xl  font-bold pb-2 text-white w-full flex justify-center">
           <h1>Computer Science Coursework</h1>
         </div>
         <div className="accordion accordion-flush" id="accordionFlushExample">
           {accordionSlice}
         </div>
-        <div
-          name="spacer"
-          className="pb-4 w-full flex justify-center"
-        ></div>
+        <div name="spacer" className="pb-4 w-full flex justify-center"></div>
       </div>
     </div>
   );
