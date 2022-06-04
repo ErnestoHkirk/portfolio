@@ -128,7 +128,7 @@ export default function ProjectSwiper() {
               <BsBoxArrowInUpRight className="ml-1 mt-1" />
             </a>
             <p className="text-white absolute bottom-8 text-2xl left-8">
-              My personal website, existing to showcasing my talents and
+              My personal website, existing to showcase my talents and
               abilities. Built with React, React-Swiper, Tailwind CSS, and
               Bootstrap UI.
             </p>
