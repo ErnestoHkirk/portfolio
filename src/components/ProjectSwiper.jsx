@@ -67,7 +67,7 @@ export default function ProjectSwiper() {
               Vortex Snowgear
             </p>
             <a
-              href="https://github.com/ErnestoHkirk/ReStored"
+              href="https://vortex-snowgear.herokuapp.com/"
               className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
             >
               Project Deployment

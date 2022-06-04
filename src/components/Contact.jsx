@@ -19,6 +19,12 @@ const Contact = () => {
     return () => window.removeEventListener("resize", updateMedia);
   });
 
+  // <p className="text-gray-300 py-4">
+  //   // Submit the form below or shoot me an email -
+  //   <a className="text-white" href="mailto:Ernesto_Hooghkirk@csu.fullerton.edu">
+  //     Ernesto_Hooghkirk@csu.fullerton.edu
+  //   </a>
+  // </p>;
   return (
     <div
       name="contact"
@@ -35,13 +41,7 @@ const Contact = () => {
             Contact
           </p>
           <p className="text-gray-300 py-4">
-            // Submit the form below or shoot me an email -
-            <a
-              className="text-white"
-              href="mailto:Ernesto_Hooghkirk@csu.fullerton.edu"
-            >
-              Ernesto_Hooghkirk@csu.fullerton.edu
-            </a>
+            // Feel free to submit the form below
           </p>
         </div>
         <input
@@ -83,7 +83,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1gmgFygN_ZB0GAKcFgf2mXiDdrHNYRieP/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IKpSQ7uJiIrWnDutSJsV3WKtnV2_7sgv/view?usp=sharing"
             className="flex text-white text-2xl hover:underline"
           >
             <AiOutlineProfile className="mt-1 mr-2" />
