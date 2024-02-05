@@ -1,5 +1,5 @@
 {
-  "homepage": "https://ernestohkirk.github.io/portfolio/",
+  "homepage": "https://ernesto-h.dev",
   "name": "portfolio-react-app",
   "version": "0.1.0",
   "private": true,
@@ -44,7 +44,7 @@
     ]
   },
   "devDependencies": {
-	"react-scripts": "5.0.0",
+    "react-scripts": "5.0.0",
     "gh-pages": "^4.0.0"
   }
 }
