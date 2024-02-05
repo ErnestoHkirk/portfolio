@@ -54,7 +54,7 @@ export default function ProjectSwiper() {
               <BsBoxArrowInUpRight className="ml-1 mt-1" />
             </a>
             <p className="text-white absolute bottom-8 text-2xl left-8">
-              A chrome extension that overlays Amazon Prime Video™ with Rotten
+              A chrome extension that overlayed Amazon Prime Video™ with Rotten
               Tomatoes™ movie and TV show ratings, with over 3500+ monthly
               active users. Built with javascript.
             </p>
