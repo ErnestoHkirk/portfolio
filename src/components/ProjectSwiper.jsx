@@ -74,7 +74,7 @@ export default function ProjectSwiper() {
               <BsBoxArrowInUpRight className="ml-1 mt-1" />
             </a>
             <a
-              href="https://github.com/ErnestoHkirk/ReStored"
+              href="https://github.com/ErnestoHkirk/Faux-Venture"
               className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"
             >
               Github Repository

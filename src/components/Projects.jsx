@@ -63,7 +63,7 @@ const Projects = () => {
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/ErnestoHkirk/ReStored">
+                <a href="https://github.com/ErnestoHkirk/Faux-Venture">
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
