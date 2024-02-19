@@ -64,10 +64,10 @@ export default function ProjectSwiper() {
           <div style={{ position: "relative" }}>
             <div className="proj2"></div>
             <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
-              Vortex Snowgear
+              Faux Venture
             </p>
             <a
-              href="https://vortex-snowgear.herokuapp.com/"
+              href="https://faux-venture.fly.dev/"
               className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
             >
               Project Deployment
@@ -82,7 +82,7 @@ export default function ProjectSwiper() {
             </a>
             <p className="text-white absolute bottom-8 text-2xl left-8">
               A fully functional e-commerce shell site. Built with React,
-              React-Redux, Typescript, Material-UI, C#, .NET6, and Entity
+              React-Redux, Typescript, Material-UI, C#, .NET7, and Entity
               Framework.
             </p>
           </div>
@@ -90,16 +90,9 @@ export default function ProjectSwiper() {
         <SwiperSlide>
           <div style={{ position: "relative" }}>
             <div className="proj3"></div>
-            <p className="text-white absolute bottom-40 font-bold left-8 text-4xl">
+            <p className="text-white absolute bottom-32 font-bold left-8 text-4xl">
               Snapshot Collage
             </p>
-            <a
-              href="https://snapshot-collage.herokuapp.com/"
-              className="flex text-white absolute bottom-32 left-8 text-2xl hover:underline"
-            >
-              Project Deployment
-              <BsBoxArrowInUpRight className="ml-1 mt-1" />
-            </a>
             <a
               href="https://github.com/ErnestoHkirk/Snapshot-Collage"
               className="flex text-white absolute bottom-24 left-8 text-2xl hover:underline"

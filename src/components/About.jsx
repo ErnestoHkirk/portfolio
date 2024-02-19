@@ -26,8 +26,9 @@ const About = () => {
           <div>
             <p>
               I'm passionate about building excellent software that improves the
-              lives of those around me, with proficiency in HTML, CSS, JavaScript,
-              React.js, and jQuery. 
+              lives of those around me, with proficiency in HTML5, CSS3,
+              JavaScript, AngularJS, SQL, RESTful APIs, .NET w/ Entity Framework
+              & LINQ, JSP, JPA w/ Hibernate & EJB, and ReactJS.
             </p>
           </div>
         </div>

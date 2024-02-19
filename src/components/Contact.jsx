@@ -19,12 +19,6 @@ const Contact = () => {
     return () => window.removeEventListener("resize", updateMedia);
   });
 
-  // <p className="text-gray-300 py-4">
-  //   // Submit the form below or shoot me an email -
-  //   <a className="text-white" href="mailto:Ernesto_Hooghkirk@csu.fullerton.edu">
-  //     Ernesto_Hooghkirk@csu.fullerton.edu
-  //   </a>
-  // </p>;
   return (
     <div
       name="contact"

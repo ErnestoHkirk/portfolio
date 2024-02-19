@@ -20,8 +20,9 @@ const Home = () => {
         </h2>
         <p className="text-lg font-bold text-gray-400 xl:text-gray-800 py-4 max-w-[700px]">
           I’m a software developer specializing in building and designing
-          exceptional digital experiences. Currently, I’m focused on building
-          responsive full-stack web applications that utilize .NET and React.
+          exceptional digital experiences. Currently, I’m focused on developing
+          responsive full-stack web applications that utilize .NET and
+          AngularJS.
         </p>
         <div>
           <Link to="projects" smooth={true} duration={100}>

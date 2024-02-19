@@ -60,7 +60,7 @@ body {
 
 .proj2 {
   background-image: linear-gradient(to bottom, rgb(0, 0, 0, 0), rgb(0, 0, 0)),
-    url("assets/vortex.png");
+    url("assets/faux-venture.png");
   height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;

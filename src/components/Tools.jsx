@@ -3,42 +3,53 @@ import React from "react";
 import HTML from "../assets/html.png";
 import CSS from "../assets/css.png";
 import JavaScript from "../assets/javascript.png";
+
+import Java from "../assets/java.png";
+import Jpa from "../assets/jpa-hibernate.png";
+
 import ReactImg from "../assets/react.png";
+
 import Node from "../assets/node.png";
-import FireBase from "../assets/firebase.png";
-import AWS from "../assets/aws.png";
+import Express from "../assets/express.png";
+
 import Cplusplus from "../assets/c++.png";
-import Python from "../assets/python.png";
-import GitHub from "../assets/github.png";
-import Tailwind from "../assets/tailwind.png";
-import Mongo from "../assets/mongo.png";
 import Csharp from "../assets/csharp.png";
+import Python from "../assets/python.png";
+
+import VisualStudio from "../assets/visual-studio.png";
+import VSCode from "../assets/vs-code.png";
+import GitHub from "../assets/github.png";
+import Gitea from "../assets/gitea.png";
+
+import DotNet from "../assets/dotnet.png";
+
+import Sql from "../assets/sql.png";
+import Ssms from "../assets/ssms.png";
+
 import Bootstrap from "../assets/bootstrap.png";
 import Semantic from "../assets/semantic-ui.png";
 import Material from "../assets/material.png";
+import Tailwind from "../assets/tailwind.png";
+
 import ChromeExt from "../assets/chrome-ext.png";
-import VisualStudio from "../assets/visual-studio.png";
-import VSCode from "../assets/vs-code.png";
-import Express from "../assets/express.png";
-import DotNet from "../assets/dotnet.png";
 
 const Tools = () => {
   return (
     <div
       name="tools"
-      className="w-full h-full pb-8 sm:h-screen xl:bg-[#0a192f] text-gray-300"
+      className="w-full pb-8 xl:bg-[#0a192f] text-gray-300"
       style={{ background: "linear-gradient(#1d2d3a, #3f637b)" }}
     >
       {/* Container */}
-      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full">
+      <div className="max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full">
         <div className="mt-16">
           <p className="text-4xl font-bold inline border-b-4 border-orange-600 ">
             Tools of the Trade
           </p>
           <p className="py-4">
-            // Everything I use to get the job done. Specialized in JavaScript,
-            Python, and React.js. With a wide breadth of knowledge in many other
-            tools and languages.
+            // Everything I use to get the job done. Specialized in .NET,
+            AngularJS, and J2EE technologies. With a wide breadth of knowledge
+            in many other tools and languages.
           </p>
         </div>
 
@@ -74,6 +85,22 @@ const Tools = () => {
               alt="HTML icon"
             />
             <p className="my-3">.NET</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={Sql} alt="HTML icon" />
+            <p className="my-3">SQL</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={Ssms} alt="HTML icon" />
+            <p className="my-3">SSMS</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={Java} alt="HTML icon" />
+            <p className="my-3">Java</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={Jpa} alt="HTML icon" />
+            <p className="my-3">JSP+ Hibernate</p>
           </div>
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img className="w-12 sm:w-20 mx-auto" src={Node} alt="HTML icon" />
@@ -138,6 +165,14 @@ const Tools = () => {
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img
               className="w-12 sm:w-20 mx-auto"
+              src={Tailwind}
+              alt="HTML icon"
+            />
+            <p className="my-3 mx-2">Tailwind</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img
+              className="w-12 sm:w-20 mx-auto"
               src={ChromeExt}
               alt="HTML icon"
             />
@@ -166,6 +201,10 @@ const Tools = () => {
               alt="HTML icon"
             />
             <p className="my-3">Github</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={Gitea} alt="HTML icon" />
+            <p className="my-3">Gitea</p>
           </div>
         </div>
       </div>
