@@ -15,6 +15,7 @@ import Express from "../assets/express.png";
 import Cplusplus from "../assets/c++.png";
 import Csharp from "../assets/csharp.png";
 import Python from "../assets/python.png";
+import PHP from "../assets/php.png";
 
 import VisualStudio from "../assets/visual-studio.png";
 import VSCode from "../assets/vs-code.png";
@@ -97,6 +98,10 @@ const Tools = () => {
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img className="w-12 sm:w-20 mx-auto" src={Java} alt="HTML icon" />
             <p className="my-3">Java</p>
+          </div>
+          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+            <img className="w-12 sm:w-20 mx-auto" src={PHP} alt="HTML icon" />
+            <p className="my-3">PHP</p>
           </div>
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img className="w-12 sm:w-20 mx-auto" src={Jpa} alt="HTML icon" />
