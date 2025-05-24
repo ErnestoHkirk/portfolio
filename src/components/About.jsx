@@ -18,18 +18,21 @@ const About = () => {
         </div>
         <div className="max-w-[1000px] w-full grid sm:grid-cols-2 gap-8 px-4">
           <div className="sm:text-right text-4xl font-bold">
-            <p>
+            <p className="pt-[25px]">
               Hi, I'm Ernesto! Pleased to meet you. Feel free to take a look
               around.
             </p>
           </div>
           <div>
-            <p>
-              I'm passionate about building excellent software that improves the
-              lives of those around me, with proficiency in HTML5, CSS3,
-              JavaScript, AngularJS, SQL, RESTful APIs, .NET w/ Entity Framework
-              & LINQ, JSP, JPA w/ Hibernate & EJB, and ReactJS.
-            </p>
+<pre className="whitespace-pre-wrap overflow-x-auto font-sans">
+{`/**
+ * I’m a full-stack developer who loves building 
+ * software that’s clean, scalable, and impactful. 
+ * I work with ReactJS, Java, .NET,  and SQL, and 
+ * enjoy crafting intuitive UIs as much as 
+ * optimizing secure, high-performance back ends.
+ */`}
+</pre>
           </div>
         </div>
       </div>

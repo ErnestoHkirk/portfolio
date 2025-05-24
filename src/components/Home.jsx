@@ -18,11 +18,10 @@ const Home = () => {
         <h2 className="text-4xl sm:text-7xl font-bold text-[#9499a8] sm:text-[#717a94]">
           I'm a Software Developer.
         </h2>
-        <p className="text-lg font-bold text-gray-400 xl:text-gray-800 py-4 max-w-[700px]">
-          I’m a software developer specializing in building and designing
-          exceptional digital experiences. Currently, I’m focused on developing
-          responsive full-stack web applications that utilize .NET and
-          AngularJS.
+        <p className="text-base font-bold text-gray-400 xl:text-gray-800 py-4 max-w-[700px]">
+          I specialize in building full-stack web and desktop applications using
+          modern languages and frameworks, with hands-on experience across all
+          phases of the SDLC.
         </p>
         <div>
           <Link to="projects" smooth={true} duration={100}>
