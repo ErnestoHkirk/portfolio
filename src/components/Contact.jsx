@@ -77,7 +77,7 @@ const Contact = () => {
           </a>
 
           <a
-            href="https://drive.google.com/file/d/1WsUJDSGP0s1_KjK4pVM-zzjt_PUt5mu4/view"
+            href="https://drive.google.com/file/d/1EOqSxBeTz726uNpnZUjSOeu18b7FsRD7/view"
             className="flex text-white text-2xl hover:underline"
           >
             <AiOutlineProfile className="mt-1 mr-2" />
