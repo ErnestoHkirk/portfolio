@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.bda48ece.css",
-    "main.js": "/static/js/main.bc8ad57d.js",
+    "main.css": "/static/css/main.3be52ec8.css",
+    "main.js": "/static/js/main.445c421f.js",
     "static/media/portfolio.png": "/static/media/portfolio.5f3cc8e4ec3c0325a655.png",
     "static/media/fullerton-collegev2.png": "/static/media/fullerton-collegev2.79ea3ca7b7cc1b3fcd83.png",
     "static/media/faux-venture.png": "/static/media/faux-venture.c12f153478c6b3edc5d7.png",
@@ -35,11 +35,11 @@
     "static/media/tailwind.png": "/static/media/tailwind.a83025e04deac732b23b.png",
     "static/media/javascript.png": "/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/index.html",
-    "main.bda48ece.css.map": "/static/css/main.bda48ece.css.map",
-    "main.bc8ad57d.js.map": "/static/js/main.bc8ad57d.js.map"
+    "main.3be52ec8.css.map": "/static/css/main.3be52ec8.css.map",
+    "main.445c421f.js.map": "/static/js/main.445c421f.js.map"
   },
   "entrypoints": [
-    "static/css/main.bda48ece.css",
-    "static/js/main.bc8ad57d.js"
+    "static/css/main.3be52ec8.css",
+    "static/js/main.445c421f.js"
   ]
 }
