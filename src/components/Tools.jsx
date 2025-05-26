@@ -49,7 +49,7 @@ const Tools = () => {
           </p>
           <p className="py-4">
             // Everything I use to get the job done. Specialized in .NET,
-            AngularJS, and J2EE technologies. With a wide breadth of knowledge
+            ReactJS, SQL, and J2EE technologies. With a wide breadth of knowledge
             in many other tools and languages.
           </p>
         </div>
