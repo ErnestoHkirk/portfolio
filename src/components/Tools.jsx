@@ -99,10 +99,10 @@ const Tools = () => {
             <img className="w-12 sm:w-20 mx-auto" src={Java} alt="HTML icon" />
             <p className="my-3">Java</p>
           </div>
-          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img className="w-12 sm:w-20 mx-auto" src={PHP} alt="HTML icon" />
             <p className="my-3">PHP</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img className="w-12 sm:w-20 mx-auto" src={Jpa} alt="HTML icon" />
             <p className="my-3">JSP+ Hibernate</p>
@@ -111,30 +111,30 @@ const Tools = () => {
             <img className="w-12 sm:w-20 mx-auto" src={Node} alt="HTML icon" />
             <p className="my-3">Node.js</p>
           </div>
-          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+          {/* <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img
               className="w-12 sm:w-20 mx-auto"
               src={Express}
               alt="HTML icon"
             />
             <p className="my-3">Express</p>
-          </div>
-          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+          </div> */}
+          {/* <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img
               className="w-12 sm:w-20 mx-auto"
               src={Cplusplus}
               alt="HTML icon"
             />
             <p className="my-3">C++</p>
-          </div>
-          <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
+          </div> */}
+          {/* <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img
               className="w-12 sm:w-20 mx-auto"
               src={Python}
               alt="HTML icon"
             />
             <p className="my-3">Python</p>
-          </div>
+          </div> */}
           <div className="shadow-md shadow-[#040c167a] pt-3 hover:scale-110 duration-500">
             <img
               className="w-12 sm:w-20 mx-auto"
